@@ -4,27 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd837eba-b226-42a3-98d7-509ff05e07cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/criptografiaBraulio.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CifDesplazamiento/puroPalabraClave.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CifSustMonoPoli/anagramacion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CifSustMonoPoli/ataque_kasiski.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CifSustMonoPoli/hill.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CifSustMonoPoli/playfair.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CifSustitucion/mono_Alfabetica.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CifSustitucion/poli_Alfabetica.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CifTransposicion/columnas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CifTransposicion/filas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CifTransposicion/grupos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CifTransposicion/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CifTransposicion/series.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CifTransposicion/zigzag.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="fd837eba-b226-42a3-98d7-509ff05e07cd" name="Changes" comment="2 avance del proyecto, cifrado de transposicion completa">
+      <change afterPath="$PROJECT_DIR$/CifSustitucion/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CifTransposicion/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CifDesplazamiento/cifrado_errors.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CifDesplazamiento/puroPalabraClave.py" beforeDir="false" afterPath="$PROJECT_DIR$/CifDesplazamiento/puroPalabraClave.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CifTransposicion/columnas.py" beforeDir="false" afterPath="$PROJECT_DIR$/CifTransposicion/columnas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CifTransposicion/filas.py" beforeDir="false" afterPath="$PROJECT_DIR$/CifTransposicion/filas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CifTransposicion/grupos.py" beforeDir="false" afterPath="$PROJECT_DIR$/CifTransposicion/grupos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CifTransposicion/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/CifTransposicion/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CifTransposicion/series.py" beforeDir="false" afterPath="$PROJECT_DIR$/CifTransposicion/series.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CifTransposicion/transposicion_errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/CifDesplazamiento/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CifTransposicion/transposicion_series_errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/CifSustMonoPoli/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CifTransposicion/transposicion_zigzag_errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/CifSustMonoPoli/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CifTransposicion/zigzag.py" beforeDir="false" afterPath="$PROJECT_DIR$/CifTransposicion/zigzag.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cifrado_errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/CifSustitucion/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +37,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DarkWinD1437&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DarkWinD1437/criptoBraulio.git&quot;,
+    &quot;accountId&quot;: &quot;6702ffc1-b0e2-49f0-98c6-e453f025eac0&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -52,24 +60,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.filas.executor": "Run",
-    "Python.grupos.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.puroPalabraClave.executor": "Run",
-    "Python.series.executor": "Run",
-    "Python.zigzag.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.columnas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.filas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.grupos.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.puroPalabraClave.executor&quot;: &quot;Run&quot;,
+    &quot;Python.series.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zigzag.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/PG/Desktop/Materias/criptografia/criptografiaBraulio&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;proofread&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -85,6 +95,30 @@
       <option name="presentableId" value="Default" />
       <updated>1746816249700</updated>
     </task>
+    <task id="LOCAL-00001" summary="2 avance del proyecto, cifrado de transposicion completa">
+      <option name="closed" value="true" />
+      <created>1746900955337</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746900955337</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2 avance del proyecto, cifrado de transposicion completa" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 avance del proyecto, cifrado de transposicion completa" />
   </component>
 </project>

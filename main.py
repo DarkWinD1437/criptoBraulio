@@ -2,8 +2,10 @@ import os
 import time
 
 #los siguientes modulos aquí
-import CifDesplazamiento.puroPalabraClave
-import CifTransposicion
+from CifDesplazamiento import puroPalabraClave
+from CifTransposicion import main as mainTrans
+from CifSustitucion import main as mainSus
+from CifSustMonoPoli import main as mainMono
 
 def limpiar_pantalla():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -24,16 +26,16 @@ def main():
         opcion = input("Ingrese el número de la opción deseada: ")
 
         if opcion == "1":
-            CifDesplazamiento.puroPalabraClave.main()
+            puroPalabraClave.main()
 
         elif opcion == "2":
-            CifTransposicion.main.main()
+            mainTrans.main()
 
         elif opcion == "3":
-            cifrado_monogramico_polialfabeto.main()
+            mainSus.main()
 
         elif opcion == "4":
-            cifrado_poligramica_monoalfabeto.main()
+            mainMono.main()
 
         # Agrega el resto de las opciones aquí
         elif opcion == "5":

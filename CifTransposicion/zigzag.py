@@ -1,7 +1,4 @@
 import time
-import logging
-
-logging.basicConfig(filename='transposicion_zigzag_errors.log', level=logging.ERROR)
 
 
 def cifrado_zigzag(mensaje, rieles, relleno='X'):
@@ -113,9 +110,6 @@ def main():
 
                 except ValueError as ve:
                     print(f"\n[!] Error: {ve}")
-                except Exception as e:
-                    logging.error(f"Error al cifrar: {str(e)}")
-                    print("\n[!] Ocurrió un error inesperado. Verifique los datos.")
 
             elif opcion == "2":
                 try:
@@ -130,9 +124,6 @@ def main():
 
                 except ValueError as ve:
                     print(f"\n[!] Error: {ve}")
-                except Exception as e:
-                    logging.error(f"Error al descifrar: {str(e)}")
-                    print("\n[!] Ocurrió un error inesperado. Verifique los datos.")
 
             elif opcion == "3":
                 print("\nSaliendo del programa...")
@@ -145,10 +136,6 @@ def main():
 
         except KeyboardInterrupt:
             print("\n\n[!] Programa interrumpido por el usuario.")
-            break
-        except Exception as e:
-            logging.critical(f"Error crítico: {str(e)}")
-            print("\n[!] Error crítico. Consulte el archivo de logs.")
             break
 
 

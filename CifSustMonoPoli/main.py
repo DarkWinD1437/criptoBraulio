@@ -1,47 +1,42 @@
 import time
 #Funciones
-from CifTransposicion import grupos
-from CifTransposicion import filas
-from CifTransposicion import series
-from CifTransposicion import zigzag
-from CifTransposicion import columnas
+from CifSustMonoPoli import anagramacion
+from CifSustMonoPoli import ataque_kasiski
+from CifSustMonoPoli import hill
+from CifSustMonoPoli import playfair
 
 def main():
 
     while True:
         try:
-            print("\nBienvenido al Cifrado por Transposicion por: ")
+            print("\nBienvenido al Cifrado por Sustitucion Monogramica Polialfabeto: ")
             print("\nOpciones:")
-            print("1. Grupos")
-            print("2. Series")
-            print("3. Filas")
-            print("4. Zig-Zag")
-            print("5. Columnas")
+            print("Polialfabeticos Periodicos")
+            print("1. Anagramacion en cifras o columnas")
+            print("2. Playfair")
+            print("3. Ataque de Kasiski")
+            print("4. Cifrado de Hill")
             print("6. Salir")
 
             opcion = input("Ingrese una opción: ").strip()
 
             if opcion == "1":
-                grupos.main()
+                anagramacion.main()
                 time.sleep(0.5)
 
             elif opcion == "2":
-                series.main()
+                playfair.main()
                 time.sleep(0.5)
 
             elif opcion == "3":
-                filas.main()
+                ataque_kasiski.main()
                 time.sleep(0.5)
 
             elif opcion == "4":
-                zigzag.main()
+                hill.main()
                 time.sleep(0.5)
 
             elif opcion == "5":
-                columnas.main()
-                time.sleep(0.5)
-
-            elif opcion == "6":
                 print("\nSaliendo del programa...")
                 time.sleep(1)
                 break

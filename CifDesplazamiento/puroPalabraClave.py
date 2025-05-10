@@ -74,7 +74,9 @@ def main():
 
     while True:
         try:
-            print("\nBienvenido al Cifrado por Desplazamiento con Palabra Clave")
+            print("\n" + "=" * 60)
+            print("Bienvenido al Cifrado por Desplazamiento con Palabra Clave".center(50))
+            print("=" * 60)
             print("\nOpciones:")
             print("1. Cifrar mensaje")
             print("2. Descifrar mensaje")
@@ -84,6 +86,7 @@ def main():
 
             if opcion == "1":
                 try:
+                    print("\n" + "-" * 50)
                     mensaje = input("Ingrese el mensaje a cifrar: ").strip()
                     if not mensaje:
                         print("Error: El mensaje no puede estar vacío.")
@@ -92,7 +95,7 @@ def main():
 
                     clave = input("Ingrese la palabra clave: ").strip()
                     mensaje_cifrado = cifrado_cesar_clave(mensaje, clave, alfabeto_mixto)
-                    print("\nMensaje cifrado:", mensaje_cifrado)
+                    print(f"\n[✓] Mensaje cifrado: {mensaje_cifrado}")
 
                 except ValueError as ve:
                     print(f"\nError de validación: {ve}")
@@ -101,6 +104,7 @@ def main():
 
             elif opcion == "2":
                 try:
+                    print("\n" + "-" * 50)
                     mensaje_cifrado = input("Ingrese el mensaje cifrado: ").strip()
                     if not mensaje_cifrado:
                         print("Error: El mensaje cifrado no puede estar vacío.")
@@ -109,7 +113,7 @@ def main():
 
                     clave = input("Ingrese la palabra clave: ").strip()
                     mensaje_descifrado = descifrado_cesar_clave(mensaje_cifrado, clave, alfabeto_mixto)
-                    print("\nMensaje descifrado:", mensaje_descifrado)
+                    print(f"\n[✓] Mensaje descifrado: {mensaje_descifrado}")
 
                 except ValueError as ve:
                     print(f"\nError de validación: {ve}")
@@ -128,10 +132,6 @@ def main():
         except KeyboardInterrupt:
             print("\n\nPrograma interrumpido por el usuario. Saliendo...")
             time.sleep(1)
-            break
-        except Exception as e:
-            print(f"\nError crítico: {e}")
-            logging.critical(f"Error crítico en main: {str(e)}")
             break
 
 
