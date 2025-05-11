@@ -10,7 +10,9 @@ def main():
 
     while True:
         try:
-            print("\nBienvenido al Cifrado por Transposicion por: ")
+            print("\n" + "=" * 50)
+            print("Bienvenido al Cifrado por Transposicion por: ".center(50))
+            print("=" * 50)
             print("\nOpciones:")
             print("1. Grupos")
             print("2. Series")

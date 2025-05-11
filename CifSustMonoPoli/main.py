@@ -16,7 +16,7 @@ def main():
             print("2. Playfair")
             print("3. Ataque de Kasiski")
             print("4. Cifrado de Hill")
-            print("6. Salir")
+            print("5. Salir")
 
             opcion = input("Ingrese una opción: ").strip()
 

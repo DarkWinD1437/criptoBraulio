@@ -7,7 +7,9 @@ def main():
 
     while True:
         try:
-            print("\nBienvenido al Cifrado por Sustitucion: ")
+            print("\n" + "=" * 40)
+            print("Bienvenido al Cifrado por Sustitucion: ")
+            print("=" * 40)
             print("\nOpciones:")
             print("1. Mono Alfabetica (Transformacion Afin)")
             print("2. Poli Alfabetica")
