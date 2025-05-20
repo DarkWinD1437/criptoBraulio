@@ -167,6 +167,12 @@ def main():
                         resultado, indices = anagramar_por_cifras(resultado, cifra)
                         print(f"\n[✓] Mensaje cifrado (Vigenère + Cifras): {resultado}")
                         print(f"[!] Guarde este número para descifrar: {cifra}")
+                    else:
+                        # Solo cifrar Vigenère
+                        if not clave_vigenere:
+                            raise ValueError("La clave no puede estar vacía.")
+                            resultado = cifrado_vigenere(mensaje_cifrado, clave_vigenere)
+                        print(f"\n[✓] Mensaje descifrado (solo Vigenère): {resultado}")
 
                 except ValueError as ve:
                     print(f"\n[!] Error: {ve}")
